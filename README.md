@@ -2,7 +2,7 @@
 
 title: Phishing URL Detector
 
-emoji: 🎣
+emoji: ðŸŽ£
 
 colorFrom: red
 
