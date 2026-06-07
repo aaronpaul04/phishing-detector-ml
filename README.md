@@ -50,7 +50,7 @@ Real ML systems fail in interesting ways. Here's what I found and how I handled 
 
 **Better long-term fix:** use the Tranco top-1M domains list as a richer trustlist and re-balance the training data with modern HTTPS-enabled benign URLs from the Common Crawl.
 
-Tech used:
+## Tech used:
 
 - Python 3.14
 - pandas, numpy for data handling
@@ -60,20 +60,20 @@ Tech used:
 - joblib for model serialization
 - matplotlib for plots
 
-Repo structure:
+## Repo structure:
 
-src/ -
+**src/ -**
 features.py        URL feature extraction
 build_dataset.py   Builds the training feature matrix from raw URLs
 train.py           Trains LightGBM, evaluates, saves model + plots
 
-app/ -
+**app/ -**
 streamlit_app.py     Web demo
 
-models/              Trained model artifacts
-docs/                Plots and screenshots
+**models/**              Trained model artifacts
+**docs/**                Plots and screenshots
 
-Roadmap:
+## Roadmap:
 
 - [x] Feature extraction
 - [x] LightGBM training and evaluation
