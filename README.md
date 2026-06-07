@@ -2,6 +2,8 @@
 
 title: Phishing URL Detector
 
+emoji: 🎣
+
 colorFrom: red
 
 colorTo: orange
